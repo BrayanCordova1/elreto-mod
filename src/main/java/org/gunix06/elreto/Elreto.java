@@ -1,6 +1,7 @@
 package org.gunix06.elreto;
 
 import net.fabricmc.api.ModInitializer;
+import org.gunix06.elreto.item.ModArmorMaterials;
 import org.gunix06.elreto.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

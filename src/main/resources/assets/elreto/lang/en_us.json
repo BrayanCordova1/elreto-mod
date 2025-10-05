@@ -1,5 +1,17 @@
 {
   "item.elreto.raw_iron_nugget": "Raw Iron Nugget \uE03C",
   "item.elreto.raw_copper_nugget": "Raw Copper Nugget \uE03C",
-  "item.elreto.raw_gold_nugget": "Raw Gold Nugget \uE03C"
+  "item.elreto.raw_gold_nugget": "Raw Gold Nugget \uE03C",
+  "item.elreto.copper_nugget": "Copper Nugget \uE03C",
+  "item.elreto.iron_smithing_template": "Iron Smithing Template \u00a7f\uE075",
+  "item.elreto.diamond_smithing_template": "Diamond Smithing Template \u00a76\uE075",
+  "item.elreto.copper_boots": "Copper Boots \uE04C",
+  "item.elreto.copper_leggings": "Copper Leggings \uE04C",
+  "item.elreto.copper_chestplate": "Copper Chestplate \uE04C",
+  "item.elreto.copper_helmet": "Copper Helmet \uE04C",
+  "item.elreto.copper_sword": "Copper Sword \uE006",
+  "item.elreto.copper_shovel": "Copper Shovel \uE010",
+  "item.elreto.copper_pickaxe": "Copper Pickaxe \uE010",
+  "item.elreto.copper_axe": "Copper Axe \uE010",
+  "item.elreto.copper_hoe": "Copper Hoe \uE010"
 }
