@@ -18,15 +18,15 @@ public class ModItems {
     public static final Item COPPER_NUGGET = registerItem("copper_nugget", Item::new);
 
     public static final Item COPPER_SWORD = registerItem("copper_sword",
-            setting -> new Item(setting.sword(ModToolMaterials.COPPER, 3, -2.4f)));
+            setting -> new Item(setting.sword(ModToolMaterials.COPPER, 5, -2.4f)));
     public static final Item COPPER_PICKAXE = registerItem("copper_pickaxe",
-            setting -> new Item(setting.pickaxe(ModToolMaterials.COPPER, 1, -2.8f)));
+            setting -> new Item(setting.pickaxe(ModToolMaterials.COPPER, 2, -2.8f)));
     public static final Item COPPER_SHOVEL = registerItem("copper_shovel",
-            setting -> new ShovelItem(ModToolMaterials.COPPER, 1.5f, -3.0f, setting));
+            setting -> new ShovelItem(ModToolMaterials.COPPER, 2.5f, -3.0f, setting));
     public static final Item COPPER_AXE = registerItem("copper_axe",
-            setting -> new AxeItem(ModToolMaterials.COPPER, 6, -3.2f, setting));
+            setting -> new AxeItem(ModToolMaterials.COPPER, 7, -3.2f, setting));
     public static final Item COPPER_HOE = registerItem("copper_hoe",
-            setting -> new HoeItem(ModToolMaterials.COPPER, 0, -3f, setting));
+            setting -> new HoeItem(ModToolMaterials.COPPER, 0, -1f, setting));
 
     public static  final Item COPPER_HELMET = registerItem("copper_helmet",
             setting -> new Item(setting.armor(ModArmorMaterials.COPPER_ARMOR_MATERIAL, EquipmentType.HELMET)));

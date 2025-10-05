@@ -21,10 +21,10 @@ public class ModArmorMaterials {
     static RegistryKey<? extends Registry<EquipmentAsset>> REGISTRY_KEY = RegistryKey.ofRegistry(Identifier.ofVanilla("equipment_asset"));
     public static final RegistryKey<EquipmentAsset> COPPER_KEY = RegistryKey.of(REGISTRY_KEY, Identifier.of(Elreto.MOD_ID, "copper"));
 
-    public static final ArmorMaterial COPPER_ARMOR_MATERIAL = new ArmorMaterial(500, Util.make(new EnumMap<>(EquipmentType.class), map -> {
+    public static final ArmorMaterial COPPER_ARMOR_MATERIAL = new ArmorMaterial(14, Util.make(new EnumMap<>(EquipmentType.class), map -> {
         map.put(EquipmentType.BOOTS, 2);
         map.put(EquipmentType.LEGGINGS, 4);
-        map.put(EquipmentType.CHESTPLATE, 6);
+        map.put(EquipmentType.CHESTPLATE, 5);
         map.put(EquipmentType.HELMET, 2);
         map.put(EquipmentType.BODY, 4);
     }), 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,0,0, ModTags.Items.COPPER_REPAIR, COPPER_KEY);
