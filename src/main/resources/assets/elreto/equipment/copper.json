@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "elreto:copper"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "elreto:copper"
+      }
+    ]
+  }
+}
