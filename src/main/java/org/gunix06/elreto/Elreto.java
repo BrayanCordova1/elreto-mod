@@ -5,6 +5,7 @@ import org.gunix06.elreto.block.ModBlocks;
 import org.gunix06.elreto.block.entity.ModBlockEntities;
 import org.gunix06.elreto.item.ModArmorMaterials;
 import org.gunix06.elreto.item.ModItems;
+import org.gunix06.elreto.sound.ModSounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,5 +18,6 @@ public class Elreto implements ModInitializer {
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
         ModBlockEntities.registerBlockEntities();
+        ModSounds.registerSounds();
     }
 }

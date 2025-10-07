@@ -1,0 +1,15 @@
+{
+  "machine_start": {
+    "subtitle": "subtitles.elreto.machine_start",
+    "sounds": [
+      "elreto:machine_start"
+    ]
+  },
+  "machine_win": {
+    "subtitle": "subtitles.elreto.machine_win",
+    "sounds": [
+      "elreto:machine_win"
+    ]
+  }
+}
+

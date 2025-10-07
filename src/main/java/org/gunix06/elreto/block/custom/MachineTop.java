@@ -5,6 +5,7 @@ import net.minecraft.block.*;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.EnumProperty;
 import net.minecraft.text.Text;
@@ -21,6 +22,7 @@ import net.minecraft.world.World;
 import org.gunix06.elreto.block.ModBlocks;
 import org.gunix06.elreto.block.entity.MachineBlockEntity;
 import org.gunix06.elreto.item.ModItems;
+import org.gunix06.elreto.sound.ModSounds;
 
 public class MachineTop extends Block {
     public static final MapCodec<MachineTop> CODEC = createCodec(MachineTop::new);
@@ -104,6 +106,9 @@ public class MachineTop extends Block {
                             fichaStack.decrement(1);
                             Direction facing = belowState.get(org.gunix06.elreto.block.custom.Machine.FACING);
                             machineEntity.startSpin(facing, player);
+
+                            world.playSound(null, belowPos, ModSounds.MACHINE_START, SoundCategory.BLOCKS, 1.0f, 1.0f);
+
                             player.sendMessage(Text.literal("§6¡Máquina activada! Girando..."), true);
                         } else {
                             player.sendMessage(Text.literal("§c¡La máquina ya está girando!"), true);

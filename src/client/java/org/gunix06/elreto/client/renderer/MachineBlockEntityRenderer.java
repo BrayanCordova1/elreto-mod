@@ -68,7 +68,7 @@ public class MachineBlockEntityRenderer implements BlockEntityRenderer<MachineBl
         int color2 = getSlotColor(entity, 2, tickDelta);
         int color3 = getSlotColor(entity, 3, tickDelta);
 
-        float spacing = 25f;
+        float spacing = 15f;
 
         matrices.push();
         matrices.translate(-spacing, yOffset * 50, 0);

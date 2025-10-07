@@ -15,5 +15,8 @@
   "item.elreto.copper_axe": "Copper Axe \uE010",
   "item.elreto.copper_hoe": "Copper Hoe \uE010",
   "item.elreto.star": "Star",
-  "block.elreto.machine": "Slot Machine"
+  "block.elreto.machine": "Slot Machine",
+  "item.elreto.ficha": "Ficha estelar",
+  "subtitles.elreto.machine_start": "Slot Machine inicia su giro",
+  "subtitles.elreto.machine_win": "Slot Machine ha ganado"
 }

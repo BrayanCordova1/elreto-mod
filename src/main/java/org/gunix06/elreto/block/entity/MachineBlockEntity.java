@@ -11,10 +11,12 @@ import net.minecraft.network.packet.Packet;
 import net.minecraft.network.packet.s2c.play.BlockEntityUpdateS2CPacket;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
+import org.gunix06.elreto.sound.ModSounds;
 import org.jetbrains.annotations.Nullable;
 import java.util.Random;
 
@@ -143,6 +145,9 @@ public class MachineBlockEntity extends BlockEntity {
 
                 if (matchingNumbers >= 2) {
                     ItemStack reward = getReward(matchingNumbers);
+
+                    world.playSound(null, pos, ModSounds.MACHINE_WIN, SoundCategory.BLOCKS, 1.0f, 1.0f);
+
                     if (matchingNumbers == 3) {
                         player.sendMessage(Text.literal("§a§l   ¡JACKPOT! ¡3 NÚMEROS IGUALES!"), false);
                         player.sendMessage(Text.literal("§6   Premio: §e" + reward.getCount() + "x " + reward.getName().getString()), false);
