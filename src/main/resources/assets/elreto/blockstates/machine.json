@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "elreto:block/machine_bottom"
+    },
+    "facing=south": {
+      "model": "elreto:block/machine_bottom",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "elreto:block/machine_bottom",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "elreto:block/machine_bottom",
+      "y": 270
+    }
+  }
+}

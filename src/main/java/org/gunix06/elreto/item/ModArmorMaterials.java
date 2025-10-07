@@ -3,11 +3,8 @@ package org.gunix06.elreto.item;
 import net.minecraft.item.equipment.ArmorMaterial;
 import net.minecraft.item.equipment.EquipmentAsset;
 import net.minecraft.item.equipment.EquipmentType;
-import net.minecraft.recipe.Ingredient;
-import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
@@ -15,7 +12,6 @@ import org.gunix06.elreto.Elreto;
 import org.gunix06.elreto.util.ModTags;
 
 import java.util.EnumMap;
-import java.util.List;
 
 public class ModArmorMaterials {
     static RegistryKey<? extends Registry<EquipmentAsset>> REGISTRY_KEY = RegistryKey.ofRegistry(Identifier.ofVanilla("equipment_asset"));

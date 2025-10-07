@@ -13,5 +13,7 @@
   "item.elreto.copper_shovel": "Copper Shovel \uE010",
   "item.elreto.copper_pickaxe": "Copper Pickaxe \uE010",
   "item.elreto.copper_axe": "Copper Axe \uE010",
-  "item.elreto.copper_hoe": "Copper Hoe \uE010"
+  "item.elreto.copper_hoe": "Copper Hoe \uE010",
+  "item.elreto.star": "Star",
+  "block.elreto.machine": "Slot Machine"
 }

@@ -1,0 +1,11 @@
+{
+  "parent": "elreto:block/machine_top"
+}
+{
+  "variants": {
+    "": {
+      "model": "elreto:block/machine_top"
+    }
+  }
+}
+

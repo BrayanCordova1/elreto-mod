@@ -40,6 +40,9 @@ public class ModItems {
     public static final Item IRON_SMITHING_TEMPLATE = registerItem("iron_smithing_template", SmithingTemplateItem::of);
     public static final Item DIAMOND_SMITHING_TEMPLATE = registerItem("diamond_smithing_template", SmithingTemplateItem::of);
 
+    public static final Item STAR = registerItem("star", Item::new);
+    public static final Item FICHA = registerItem("ficha", Item::new);
+
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {
         return Registry.register(Registries.ITEM, Identifier.of(Elreto.MOD_ID, name),
                 function.apply(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Elreto.MOD_ID, name)))));
